@@ -1,16 +1,10 @@
-# chexproject
+# Chex Project
 
-A new Flutter project.
+Elimizde 10 000 adet veri olduğunu varsayalım ve kullanıcılarımıza bu veriyi 100'er 100'er başlıklara (kategorilere) ayırarak listelemek istiyoruz.
 
-## Getting Started
+Bunun için her bir veriyi 75 birim yüksekliğinde bir kartın ortasında veri numarası yazılı bir şekilde temsil edeceğiz. "Sticky" bir başlık her 
+kategoriye geldiğimizde en üstte dururken, en üstte yatay eksende kaydırılabilen barda ise hangi 100lük gruba gitmek istediğimizi seçebileceğiz.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Column
+|- Yatay Kaydırılabilen
+|- Expanded -> CustomScrollView
